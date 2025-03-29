@@ -18,13 +18,13 @@ public class Unicontrol {
         System.out.println("Este es el usuario:\n"+ usuario);
         return serviciUni.guardar(usuario);
     }
-    /*
+
     @GetMapping("/")
     public List<Uni> listar(){
         return serviciUni.listarTodos();
     }
 
-     */
+
 }
 
 
